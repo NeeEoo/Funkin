@@ -13,8 +13,7 @@ class FlxGamepadActionInputSource extends FlxBasic
 
   static function get_instance():FlxGamepadActionInputSource
   {
-    if (instance == null) instance = new FlxGamepadActionInputSource();
-    return instance;
+    return instance ?? (instance = new FlxGamepadActionInputSource());
   }
 
   public function new()

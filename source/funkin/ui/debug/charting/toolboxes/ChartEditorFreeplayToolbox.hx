@@ -141,7 +141,7 @@ class ChartEditorFreeplayToolbox extends ChartEditorBaseToolbox
 
   var tickTiledSprite:FlxTiledSprite;
 
-  var freeplayPreviewVolume(get, null):Float;
+  var freeplayPreviewVolume(get, never):Float;
 
   function get_freeplayPreviewVolume():Float
   {
